@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1 Neil
+  <p>-------</p>
+
+  - for post in contentful.blog_posts
+    h2= post.title
+
+    div
+      != markdown(post.body)
