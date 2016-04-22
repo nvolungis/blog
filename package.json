@@ -2,6 +2,7 @@
   "name": "-neil",
   "description": "My blerg",
   "dependencies": {
+    "roots":"4.1.0",
     "autoprefixer-stylus": "0.8.x",
     "axis": "0.5.x",
     "coffee-script": "^1.0.0",
